@@ -1,0 +1,229 @@
+#jumbo4 {
+  background-color: #6666cc;
+  color: black;
+}
+#buttonpainting{
+  width : 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  padding-left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+#buttonpainting:hover {background-color: #9991}
+
+#buttonpainting :active {
+  background-color: #9991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#buttonelectricityrepairs{
+  width : 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 15%;
+  }
+
+  #buttonelectricityrepairs:hover {background-color: #9991}
+
+  #buttonelectricityrepairs :active {
+  background-color: #9991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+#buttonplumbing{
+  width : 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 15%;
+}
+
+#buttonplumbing:hover {background-color: #9991}
+
+#buttonplumbing :active {
+  background-color: #9991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+#buttonflooring{
+  width : 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+margin-left: 15%;
+}
+
+#buttonflooring:hover {background-color: #9991}
+
+#buttonflooring :active {
+  background-color: #9991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#buttoncarpentry{
+  width : 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 15%;
+}
+
+#buttoncarpentry:hover {background-color: #9991}
+
+#buttoncarpentry :active {
+  background-color: #9991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+#jumbo2{
+  text-align: center;
+  margin-bottom: 0;
+  background-color: #6666cc;
+  margin-top: 0;
+}
+
+#jumbo3{
+  margin-bottom: 0;
+}
+
+#jumbo1{
+  margin-bottom: 0;
+}
+
+#buttonheader1{
+  display: inline-block;
+ border-radius: 8px;
+ background-color: #6666cc;
+ border: 10px;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 15px;
+ padding: 5px;
+ width: 300px;
+ transition: all 0.5s;
+ cursor: pointer;
+ float: right;
+ margin-right: 10px;
+ border-width: 10px;
+}
+
+#buttonheader1 span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+#buttonheader1 span:after {
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.5s;
+}
+
+#buttonheader1:hover span {
+ padding-right: 25px;
+}
+
+#buttonheader1:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+
+#buttonheader2{
+  display: inline-block;
+ border-radius: 8px;
+ background-color: #6666cc;
+ border: 10px;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 15px;
+ padding: 5px;
+ width: 100px;
+ transition: all 0.5s;
+ cursor: pointer;
+ float: right;
+}
+
+#buttonheader2 span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+#buttonheader2 span:after {
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.5s;
+}
+
+#buttonheader2:hover span {
+ padding-right: 25px;
+}
+
+#buttonheader2:hover span:after {
+ opacity: 1;
+ right: 0;
+}
