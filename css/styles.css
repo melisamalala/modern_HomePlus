@@ -460,3 +460,16 @@ img {
   background-size: 50%;
   background-repeat: no-repeat;
 }
+
+#render {}
+
+#jumbotronindex11 {
+  background-image: url(../img/bathroom.jpg);
+  background-size: 100;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#maximise {
+  opacity: 0.8;
+}
