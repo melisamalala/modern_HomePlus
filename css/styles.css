@@ -437,4 +437,26 @@ img {
 #jumbotronindex5 {
   background-color: #6666cc;
   margin-top: 0;
+  color: white;
+  margin-bottom: 0;
+}
+
+#jumbotronindex7 {
+  background-image: url(../img/ex.jpg);
+  margin-top: 0;
+}
+
+#jumbotronindex7a {
+  opacity: 0.9;
+}
+
+#jumbotronindex6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#cheaper {
+  background-image: url(../img/cheaper.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
