@@ -1,0 +1,532 @@
+#jumbo4 {
+  background-color: #6666cc;
+  color: white;
+}
+
+#buttonpainting {
+  width: 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  padding-left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #cccccc;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+#buttonpainting:hover {
+  background-color: #000033
+}
+
+#buttonpainting :active {
+  background-color: #9991;
+  box-shadow: 0 5px #cccccc;
+  transform: translateY(4px);
+}
+
+#buttonelectricityrepairs {
+  width: 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #cccccc;
+  margin-left: 15%;
+}
+
+#buttonelectricityrepairs:hover {
+  background-color: #000033
+}
+
+#buttonelectricityrepairs :active {
+  background-color: #9991;
+  box-shadow: 0 5px #cccccc;
+  transform: translateY(4px);
+}
+
+#buttonplumbing {
+  width: 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #cccccc;
+  margin-left: 15%;
+}
+
+#buttonplumbing:hover {
+  background-color: #000033
+}
+
+#buttonplumbing :active {
+  background-color: #9991;
+  box-shadow: 0 5px #cccccc;
+  transform: translateY(4px);
+}
+
+#buttonflooring {
+  width: 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #cccccc;
+  margin-left: 15%;
+}
+
+#buttonflooring:hover {
+  background-color: #000033
+}
+
+#buttonflooring :active {
+  background-color: #9991;
+  box-shadow: 0 5px #cccccc;
+  transform: translateY(4px);
+}
+
+#buttoncarpentry {
+  width: 75%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #6666cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #cccccc;
+  margin-left: 15%;
+}
+
+#buttoncarpentry:hover {
+  background-color: #000033
+}
+
+#buttoncarpentry :active {
+  background-color: #9991;
+  box-shadow: 0 5px #cccccc;
+  transform: translateY(4px);
+}
+
+#jumbo2 {
+  text-align: center;
+  margin-bottom: 0;
+  background-color: #6666cc;
+  margin-top: 0;
+  color: white;
+  padding: 5px;
+}
+
+#jumbo3 {
+  margin-bottom: 0;
+  background-color: : #cccccc;
+}
+
+#jumbo1 {
+  margin-bottom: 0;
+}
+
+#buttonheader1 {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #6666cc;
+  border: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+  border-width: 10px;
+}
+
+#buttonheader1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#buttonheader1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#buttonheader1:hover span {
+  padding-right: 25px;
+}
+
+#buttonheader1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#buttonheader2 {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #6666cc;
+  border: 100px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 1px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+}
+
+#buttonheader2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#buttonheader2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#buttonheader2:hover span {
+  padding-right: 25px;
+}
+
+#buttonheader2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+#logo {
+  width: 10%;
+  height: auto;
+}
+
+#jumbotronindex4a {
+  background-image: url(../img/interiors.jpeg)
+}
+
+#jumbotronindex4 {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.logotitle {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
+
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+    font-size: 11px
+  }
+}
+
+#bluehome {
+  background: url(../img/bluehome.jpeg);
+  background-size: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#platform {
+  margin-left: auto;
+}
+
+#jumbotronindex5 {
+  background-color: #6666cc;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 0;
+}
+
+#jumbotronindex7 {
+  background-image: url(../img/ex.jpg);
+  margin-top: 0;
+}
+
+#jumbotronindex7a {
+  opacity: 0.9;
+}
+
+#jumbotronindex6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#cheaper {
+  background-image: url(../img/cheaper.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#render {}
+
+#jumbotronindex11 {
+  background-image: url(../img/bathroom.jpg);
+  background-size: 100;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#maximise {
+  opacity: 0.8;
+}
+
+#jumbotronindex13 {
+  background-color: #6666cc;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 0;
+}
+
+#jumbotronindex12 {
+  margin-bottom: 0;
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+  .show {
+    display: block;
+  }
+  #jumbotronindextwo {
+    background-image: url(../img/repair1.jpg);
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #jumbotronindex8 {
+    margin-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
