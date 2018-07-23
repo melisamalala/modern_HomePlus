@@ -44,7 +44,7 @@
         </div>
 
 
-        <button class="buttonhead1" id="buttonheader1" style="vertical-align:middle"><span>Get An Instant Quote</span></button>
+        <button class="buttonhead1" id="buttonheader1" style="vertical-align:middle"><span>Book A Service Provider</span></button>
         <button class="buttonhead2" id="buttonheader2" style="vertical-align:middle"><span>Email Us</span></button>
 
       </div>
@@ -71,30 +71,26 @@
 
 
 
-  <div class="jumbotron text-center col-mid-6" id="jumbotronindex4">
+  <div class="jumbotron col-mid-6" id="jumbotronindex4">
     <div class="row">
-      <div class="container">
-        <h1>The Online Architectural Platform</h1>
+      <div class="col-md-6" id "platform">
+        <h1>The Online Architectural <br>Platform</h1>
         <p>We work online, but we're not robots.</p><br>
-        <p>From extensions to refurbishments, we're making it easy to remodel your home. Our experienced team use technology to provide bespoke 2D floor plans, 3D renders and elevations. Apply for planning permission, sell your house or simply bring your
-          vision to life. No hidden costs, no extra fees. Just high-quality drawings.
-
+        <p>From extensions to refurbishments, we're making it easy to remodel your home. Our experienced team use technology to provide bespoke 2D floor plans, 3D renders and elevations. <br> <br>Apply for planning permission, sell your house or simply bring
+          your vision to life. No hidden costs, no extra fees. Just high-quality drawings.
         </p>
-        <a class="btn btn-danger pull-right" href="{% url 'awesome_info' %}">View Our Portfolio</a>
+        <a class="btn btn-danger pull-left" href="{% url 'awesome_info' %}">View Our Portfolio</a>
       </div>
 
-      <div class="jumbotron text-center col-mid-6" id="jumbotronindex4a">
-        <h1>Here you will learn how to become super rad.</h1>
-        <p>Tubular dude.</p>
-        <a class="btn btn-success" href="{% url 'rad_info' %}" role="button">More Info</a>
+      <div class="col-md-6" id="bluehome">
+        <!-- <img src="img/bluehome.jpeg" alt="blue home"> -->
       </div>
     </div>
   </div>
 
-
   <div class="jumbotron" id="jumbotronindex5">
     <p>Want to discuss your project with one of our expert advisers? </p>
-    <button type="button" name="button">Book a FREE call</button>
+    <button id="freecall" type="button" name="button">Book a FREE call</button>
   </div>
 
   <div class="jumbotron" id="jumbotronindex6">
@@ -144,8 +140,41 @@
   </div>
 
   <div class="jumbotron" id="jumbotronindex12">
+
     <h1>Happy customers</h1>
     <p>Don't just take our word for it</p>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/melissa.jpg" style="width:100%">
+        <div class="text">Melissa Malala</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/kamran.png" style="width:100%">
+        <div class="text">Kamran Sumar</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/CENTURION-SYSTEMS-HAPPY-CUSTOMER-TESTIMONIALS01.jpg" style="width:100%">
+        <div class="text">Will Smith</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
     <!-- KAMRAN, ADD CAROUSEL HERE OF HAPPY CUSTOMERS SAYING HAPPY THINGS -->
   </div>
@@ -218,10 +247,9 @@
     </div>
   </div>
 
-  <!-- MAKE 15 JUMBOTRONS:
 
 
-1. LOGO HEADER
+  <!-- 1. LOGO HEADER
 
 - HAMBURGER MENU
 - ANOTHER INSTANT QUOTE
