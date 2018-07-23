@@ -519,6 +519,8 @@ img {
   .show {
     display: block;
   }
-  #jumbotronindex2 {
+  #jumbotronindextwo {
     background-image: url(../img/repair1.jpg);
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
