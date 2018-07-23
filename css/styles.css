@@ -579,3 +579,20 @@ img {
   padding-top: 0;
   margin-top: 0;
 }
+
+#jumboportfolio {
+  background-color: #6666cc;
+  color: white;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
